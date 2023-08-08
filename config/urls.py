@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 
 from livraria.views import CategoriaViewSet, EditoraViewSet, AutorViewSet, LivroViewSet
 
-from rest_framework_simplest.views import TokenObtainPairView, TokenRefreshView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 
 router = DefaultRouter()
