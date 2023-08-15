@@ -1,3 +1,4 @@
-from rest_framework.serializers import ModelSerializer
-
-from livraria.models import Categoria, Editora, Autor, Livro
+from .autor import AutorSerializer
+from .categoria import CategoriaSerializer
+from .editora import EditoraSerializer
+from .livro import LivroSerializer, LivroDetailSerializer, LivroListSerializer
